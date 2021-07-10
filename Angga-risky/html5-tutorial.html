@@ -1,0 +1,136 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Html 5 tutorial - anggre risky</title>
+</head>
+<body>
+    <h1>Below this paragraph, i have component</h1>
+    <pandaComponent>
+        <p>
+            Hello Nannies . i am panda, iloveu
+        </p>
+    </pandaComponent>
+
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html> -->
+<script>
+// function soal1(param){
+
+//         var seed=[];
+//     if(param<=0){
+//         return "Invalid Input";
+//     }else{
+//         // return "Ok!"
+//         for ( var i =0 ; i<param; seed.push(''), i++);
+//         // return seed.length;
+//         if(seed.length%2===0){
+//                 seed[seed.length/2 +1]="plus";
+//                 seed[seed.length/2 -2]="plus";
+//                 seed[seed.length/2 -1]="plus";
+//                 seed[seed.length/2]="plus";
+//         }else{
+//                 seed[Math.trunc(seed.length/2)]="minus";
+//         }
+
+//     }
+//     return seed;
+
+// }
+// console.log(soal1(4
+// ));
+
+// function mathjs(param){
+//     if(param<=0){
+//         return "invalid input"
+//     }else{
+//         // var i =  Math.trunc(param);
+//         // return i
+//         return Math.trunc(param)
+//     }
+// }
+
+// console.log(mathjs(3.2));
+// console.log(soal1(7));
+// console.log(soal1(8));
+// console.log(soal1(10));
+
+// function soal2(param){
+//     var output = [];
+//     for(var people of param){
+//         output.push({
+//             Firstname : people[0],
+//             Lastname : people[1],
+//             Hoby : people[2],
+//             Work : people[3]
+//         });
+
+//     }
+//     return output;
+// }
+
+// console.log(soal2([ ['Aries','Dimas','pubg','Web Developer'] , 
+// ['Radit','Dika','manga','Web Developer'] ]));
+
+// function soal3(param){
+//     var output = [];
+//     var buffer = [];
+//     for (var i = 1; i<=param*param;i++){
+//         buffer.push(i);
+//         console.log(i+" soal3")
+//         if(i%param===0){
+//             output.push(buffer);
+//             buffer=[];
+//         }
+//     }
+//     return output;
+// }
+
+// function soal4(param){
+//     var output = [];
+//     var buffer = [];
+//     for (var i = 0; i<param*param;i++){
+//         buffer.push(i);
+//         console.log(i)
+//         if(i%param===0){
+//             output.push(buffer);
+//             buffer=[];
+//         }
+//     }
+//     return output;
+// }
+// var a = soal3(6);
+// var b = soal4(6);
+// console.log(a)
+// console.log(b)
+
+//soal ke 4 hiburan
+function bendera_inggris(param){
+    var width = param + 2;
+    var output = "";
+
+    if (param % 2 ===0){
+        return "Invalid input"
+    }else {
+        for (var j =0; j< param; j++){
+            for (var i = 0;i <width;i++){
+                if(i===Math.trunc(width/2)|| j===Math.trunc(param/2)){
+                    output+="*";
+
+                }else{
+                    output+=" ";
+                }
+            }
+            output+="\n";
+        }
+
+    }
+    return output;
+}
+
+console.log(bendera_inggris(11));
+</script>

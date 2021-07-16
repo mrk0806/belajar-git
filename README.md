@@ -1,4 +1,2 @@
-#repository-baru
-ini hanya percobaan dalam menggunakan github
-
-Reza
+##repository untuk belajar colaborate
+Bersama Vikri Assidiqie

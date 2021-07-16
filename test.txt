@@ -1,3 +1,0 @@
-#belajar-git
-
-belajar berkontribusi dengan repo orang lain

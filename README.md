@@ -1,2 +1,2 @@
-##repository untuk belajar colaborate
+# repository untuk belajar colaborate
 Bersama Vikri Assidiqie
